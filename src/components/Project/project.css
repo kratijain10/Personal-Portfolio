@@ -1,0 +1,112 @@
+/* 
+#projectSection{
+    overflow: hidden;
+    overflow-y: auto;
+    width: 100vw;
+    height: 100vh;
+     max-width: 80rem;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.projectTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.cardBox{
+    display: flex;
+    margin: 3rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(40,40,40);
+    width: 100vw;
+    max-width: 80%;
+}
+
+.card {
+    margin-bottom: 20px;
+
+  }
+
+  .btn{
+    margin: 50px;
+  }
+    */
+    #projectSection {
+        overflow: hidden;
+        width: 100vw;
+        height: auto;
+        max-width: 80rem;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center; 
+      }
+      
+      .projectTitle {
+        font-size: 3rem;
+        font-weight: 600;
+        padding-top: 3rem;
+        margin-bottom: 1.5rem;
+      }
+      
+      .cardBox {
+        display: flex;
+        flex-wrap: wrap; /* Added to handle responsive wrapping */
+        gap: 20px; /* Added to manage spacing between cards */
+        margin: 3rem auto; /* Centered the cardBox */
+        padding: 1.5rem 2rem;
+        border-radius: 0.5rem;
+        background-color: rgb(40,40,40);
+        max-width: 80%; /* Adjusted to ensure the cardBox respects the viewport width */
+      }
+      
+      .card {
+        flex: 1; 
+        min-width: 18rem; /* Ensures a minimum width for the cards */
+        margin-bottom: 20px;
+        
+        
+      }
+      
+      .card-img-top{
+        margin-top: 5px;
+
+      }
+      .btn {
+        margin: 50px;
+      }
+
+      .logo{
+    /* object-fit: cover; */
+    height: 4rem;
+    width: 4rem;
+    margin: 2rem;
+      }
+
+      .skillBox {
+        display: flex;
+        flex-wrap: wrap; /* Added to handle responsive wrapping */
+        gap: 20px; /* Added to manage spacing between cards */
+        margin: 3rem auto; /* Centered the cardBox */
+        padding: 1.5rem 2rem;
+        border-radius: 0.5rem;
+        background-color: rgb(40,40,40);
+        max-width: 80%; /* Adjusted to ensure the cardBox respects the viewport width */
+      }
+      
+      .skill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem;
+      }
+
+
+      
