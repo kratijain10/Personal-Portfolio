@@ -3,8 +3,6 @@ import './education.css';
 import college from '../../assets/college.png';
 import school from '../../assets/school.png';
 
-
-
 const Education = () => {
   return (
     <div id = "education" > <span className='eTitle'> Education </span>
@@ -49,44 +47,6 @@ const Education = () => {
         </div>   
         
     </div>
-
-    // <section id = "education"> <span className='educationTitle'>Education</span>
-    // <div className='educationBars'>
-    // <div className="educationItem">
-    //     <div className="educationLeft">
-    //       <img src={college} alt="University Logo" className="educationLogo" />
-    //       <h2 className="educationInstitution">Institute of Engineering and Technology, DAVV</h2>
-    //       <p className = "educationDegree" >B.E(ETC)    8.0</p>
-    //     </div>
-    //     <div className="educationRight">
-    //       <span className="educationDate">Oct 2021-june 2025</span>
-    //       <span className="educationCity"> Indore,M.P</span>
-    //     </div>
-    //   </div>
-    //   <div className="educationItem">
-    //     <div className="educationLeft">
-    //       <img src={school} alt="High School Logo" className="educationLogo" />
-    //       <h2 className="educationInstitution">Vidyavati Public Central School</h2>
-    //       <p className = "educationDegree" >12th    94%</p>
-    //     </div>
-    //     <div className="educationRight">
-    //     <span className="educationDate">2019-20</span>
-    //       <span className="educationCity"> Bhind,M.P</span>
-    //     </div>
-    //   </div>
-    //   <div className="educationItem">
-    //     <div className="educationLeft">
-    //       <img src={school} alt="Middle School Logo" className="educationLogo" />
-    //       <h2 className="educationInstitution">Vidyavati Public Central School</h2>
-    //       <p className = "educationDegree" >10th    89%</p>
-    //     </div>
-    //     <div className="educationRight">
-    //     <span className="educationDate">2017-18</span>
-    //       <span className="educationCity"> Bhind,M.P</span>
-    //     </div>
-    //   </div>
-    // </div>
-    //  </section>
 
   )
 }

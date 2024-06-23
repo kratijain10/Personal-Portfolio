@@ -1,4 +1,5 @@
 // import React, { useState } from 'react'
+import React from 'react';
 import './navbar.css'
 
 import { Link } from 'react-scroll';
@@ -14,7 +15,7 @@ const Navbar = () => {
         <div className='desktopMenu'>
             <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListsItems'>Home</Link>
             <Link activeClass='active' to='education' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListsItems'>Education</Link>
-            <Link activeClass='active' to='project' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListsItems'>Projects & Skills</Link>
+            <Link activeClass='active' to='projectSection' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListsItems'>Projects & Skills</Link>
             <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListsItems'>Contact</Link>
            
         
