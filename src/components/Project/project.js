@@ -11,6 +11,7 @@ import react from "../../assets/react.png";
 import cpp from "../../assets/cpp.png";
 import sql from "../../assets/sql.png";
 import os from "../../assets/os.png";
+import Marquee from "react-fast-marquee";
 
 const Project = () => {
   return (
@@ -46,7 +47,7 @@ const Project = () => {
         </div>
       </div>
       <div className="skillBox">
-      <marquee behavior="scroll" direction="right" className="marquee-box">
+      <Marquee autoFill={true} className="marquee-box">
         <div className="skill">
           <img src={html} width="100" height="80" className="logo" alt="HTML" />
           <p className="logoname">HTML</p>
@@ -79,7 +80,7 @@ const Project = () => {
           <img src={os} width="100" height="70" className="logo" alt="OS" />
           <p className="logoname">OS</p>
         </div>
-      </marquee>
+      </Marquee>
     </div>
     </div>
   );
