@@ -10,8 +10,8 @@ const Intro = () => {
         <div className='introContent'>
             <span className='hello'>Hello,</span>
             <span className='introText'> I'm <span className='introName'>Krati</span><br/>
-            Website Designer</span>
-            <p className='introPara'> I am a skilled frontend web designer with experience in visually appealing and user friendly websites.
+          Website Developer </span>
+            <p className='introPara'> I am a skilled frontend developer with expertise in the MERN stack, creating visually appealing and user-friendly websites.
 
             </p>
             <Link ><button className='btn'><img src = {btnImg} alt="hire me" className='btnImg'/>Hire Me</button></Link>

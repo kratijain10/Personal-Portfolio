@@ -11,6 +11,7 @@ import react from "../../assets/react.png";
 import cpp from "../../assets/cpp.png";
 import sql from "../../assets/sql.png";
 import os from "../../assets/os.png";
+import nodejs from "../../assets/nodejs.png";
 import Marquee from "react-fast-marquee";
 
 const Project = () => {
@@ -79,6 +80,10 @@ const Project = () => {
         <div className="skill">
           <img src={os} width="100" height="70" className="logo" alt="OS" />
           <p className="logoname">OS</p>
+        </div>
+        <div className="skill">
+          <img src={nodejs} width="100" height="80" className="logo" alt="Nodejs" />
+          <p className="logoname">Node.js</p>
         </div>
       </Marquee>
     </div>
